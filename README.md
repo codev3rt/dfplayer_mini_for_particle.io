@@ -1,4 +1,4 @@
-# dfplayer_mini_for_particle.io
+# DFPlayer Mini for Particle.io
 
 * This project was tested on Particle Boron LTE
 * Connect your DFPlayer_Mini to Particle device
