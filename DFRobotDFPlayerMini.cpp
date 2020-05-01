@@ -1,5 +1,7 @@
 /*!
- * @file DFRobotDFPlayerMini.cpp
+ * It's been modified to work with Particle.io
+ * Tested on Particle Boron LTE
+ * Credit to:
  * @brief DFPlayer - An Arduino Mini MP3 Player From DFRobot
  * @n Header file for DFRobot's DFPlayer
  *
@@ -10,6 +12,7 @@
  * @version  V1.0
  * @date  2016-12-07
  */
+
 
 #include "DFRobotDFPlayerMini.h"
 
