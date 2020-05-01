@@ -1,9 +1,35 @@
+/***************************************************
+DFPlayer - A Mini MP3 Player For Particle
+ <https://www.dfrobot.com/index.php?route=product/product&product_id=1121>
+
+It's been modified to work with Particle.io
+Tested on Particle Boron LTE
+Many thanks to person who rewrote the code and made it
+available for Particle.io as well as original creator.
+
+ ***************************************************
+ This example shows the basic function of library for DFPlayer.
+
+ Created 2016-12-07
+ By [Angelo qiao](Angelo.qiao@dfrobot.com)
+
+ GNU Lesser General Public License.
+ See <http://www.gnu.org/licenses/> for details.
+ All above must be included in any redistribution
+ ****************************************************/
+
+/***********Notice and Trouble shooting***************
+ 1.Connection and Diagram can be found here
+ <https://www.dfrobot.com/wiki/index.php/DFPlayer_Mini_SKU:DFR0299#Connection_Diagram>
+ 2.This code is tested on Arduino Uno, Leonardo, Mega boards.
+ ****************************************************/
+
 #include "Particle.h"
-#include "DFRobotDFPlayerMini.h"
+#include "DFRobotDFPlayerMini_For_Particle.h"
 
 //SYSTEM_MODE(SEMI_AUTOMATIC);
 
-DFRobotDFPlayerMini myDFPlayer;
+DFRobotDFPlayerMini_For_Particle myDFPlayer;
 void printDetail(uint8_t type, int value);
 
 void setup()
