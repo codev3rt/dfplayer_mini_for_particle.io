@@ -5,3 +5,8 @@
 * and control it from Functions inside Particle Console
 *
 * Type: audio1 or audio2 under Functions/controlpnl to trigger 0001.mp3 and 0002.mp3 files on your micro SD Card
+
+# Wiring:
+
+
+![](https://github.com/codev3rt/dfplayer_mini_for_particle.io/blob/master/DFPlayer_Mini_For_Particle.png)
