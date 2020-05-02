@@ -216,4 +216,5 @@ int controlPnl(String command)
   {
     myDFPlayer.play(2);
   }
+  return 1;
 }
